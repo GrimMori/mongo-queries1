@@ -70,5 +70,5 @@ db.restaurants.find({"cuisine":"Tapas"}).sort({"name":1})
 
 - How many restaurants have been graded after `2015-01-01`.
 
-db.restaurants.find( { "grades.date": { "$gt" : ISODate("2015-01-01") } }).count
+db.restaurants.find( { "grades.date": { "$gt" : ISODate("2015-01-01") } }).count()
 
