@@ -1,18 +1,16 @@
 ## Independent Practice
 
-Practice the following queries:
+Solutions:
 
 - Find the restaurant with id `30112340`.
 
 db.restaurants.find( { "restaurant_id": "30112340" } )
 
-"Wendy'S"
 
 - Find `May May Kitchen`.
 
 db.restaurants.find( { "name": "May May Kitchen" } )
 
-restaurant_id: "40358429"
 
 - Find the restaurants where their cuisine is `Tapas`.
 
